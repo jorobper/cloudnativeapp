@@ -26,7 +26,7 @@ push:
             username: $DOCKER_USERNAME
             password: $OCI_AUTH_TOKEN
             repository: $DOCKER_REGISTRY/$DOCKER_REPO
-  deploy-to-kubernetes:
+ deploy-to-kubernetes:
     box: node:current-slim
     steps:
 
